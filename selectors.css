@@ -61,12 +61,19 @@ p, div {
 
 
 /* 11. Alla  <p> som ligger nästladee (inuti) en div ska ha font-size: 22px*/
-
+div p {
+    font-size: 22px;
+}
 
 /* 12. Ge alla em i den fjärde div-en med class="fourth" en 'text-docration: underline;*/
-
+.fourth em {
+    text-decoration: underline;
+}
 
 /* 13. Gör så att <h1> elementet får färgen blå när musen är över elementet (:hover) */
+h1:hover {
+    color: blue;
+}
 
 
 /* 14. Gör så att alla besökta <a> element får färgen grå (:visited) */
