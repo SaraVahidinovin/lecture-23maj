@@ -43,12 +43,21 @@ input {
 
 
 /* 8. Alla element med class 'hello' ska ha en vit bakgrund*/
+.hello{
+    background-color: white;
+}
 
 
 /* 9. Elementet med id 'special' ska ha en border på '2px solid blue'*/
+#special {
+    border: 2px solid blue;
+}
 
 
 /* 10. Alla <p> och <div> ska ha färgen svart #000*/
+p, div {
+    color: #d31010;
+}
 
 
 /* 11. Alla  <p> som ligger nästladee (inuti) en div ska ha font-size: 22px*/
