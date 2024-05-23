@@ -7,21 +7,39 @@
 
 
 /* 2. <body> elementet ska ha bakgrundsfärg #bdc3c7*/
+body {
+    background-color: #bdc3c7;
+}
 
 
 /* 3. Rubriken <h1> ska ha färg #9b59b6*/
+h1 {
+    color: #9b59b6;
+}
 
 
 /* 4. Alla underubriker <h2> ska ha en orange färg */
+h2 {
+    color: orange;
+}
 
 
 /* 5. Alla <li> element i en ul-lista ska ha blå färg (välj valfri hexadecimal färg)*/
+ul li {
+    color: #180ae7
+}
 
 
 /* 6. Alla p ska ha en gul bakgrundsfärg*/
+p {
+    background-color: yellow;
+}
 
 
 /* 7. Alla inmatningsfält (input) ska ha en border på '3px solid red'*/
+input {
+    border: 3px solid red;
+}
 
 
 /* 8. Alla element med class 'hello' ska ha en vit bakgrund*/
